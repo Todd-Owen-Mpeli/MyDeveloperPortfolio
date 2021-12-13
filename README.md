@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). I created this project as an updated Server-Side Rendering project  based on the previous Client-Side Rendering project, seen on my gihub as Web Developer Portfolio.
+
+This projects is constructed solely with Next.js - featuring, Bootstrap 5, JSON, and a Framer-motion animation API. It also demonstrates my general web development skills, specifically, HTML5, CSS3, SCSS, JavaScript /jQuery, Git/ Github.
 
 ## Getting Started
 
