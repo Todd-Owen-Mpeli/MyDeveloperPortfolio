@@ -4,66 +4,73 @@ import styles from "/styles/Home.module.scss";
 
 const Navbar = () => {
 	return (
-		<div>
+		<>
 			{/* <!--===== HEADER =====--> */}
 			<header className={styles.header}>
-				<nav className="container">
-					<div className={styles.content}>
-						<div className={styles.navTitle}>
-							<Link href="/">
-								<a>
-									<Image
-										src="/otherImages/LogoPurple.png"
-										alt="Logo"
-										width={40}
-										height={40}
-										objectFit="contain"
-									></Image>
-								</a>
-							</Link>
-							<Link href="/">
-								<a>
-									<Image
-										src="/otherImages/logoNew.png"
-										alt="New Project Logo"
-										width={50}
-										height={50}
-										objectFit="contain"
-									></Image>
-								</a>
-							</Link>
+				<nav>
+					<div className="container">
+						<div className={styles.content}>
+							<div className={styles.navTitle}>
+								<Link href="/">
+									<a>
+										<Image
+											src="/otherImages/LogoYellow.png"
+											alt="Logo"
+											width={30}
+											height={30}
+											objectFit="contain"
+										></Image>
+									</a>
+								</Link>
+								<Link href="/">
+									<a>
+										<Image
+											src="/otherImages/logoNew.png"
+											alt="New Project Logo"
+											width={50}
+											height={50}
+											objectFit="contain"
+										></Image>
+									</a>
+								</Link>
+							</div>
+							<ul className={styles.navLinks}>
+								<Link href="/" target="blank">
+									<a>Projects</a>
+								</Link>
+								<Link href="/" target="blank">
+									<a>About</a>
+								</Link>
+								<Link href="/" target="blank">
+									<a>Skills</a>
+								</Link>
+								<Link href="/" target="blank">
+									<a>Contact</a>
+								</Link>
+								<newButton>
+									<Link href="/">
+										<a
+											className={styles.resumeBtn}
+											target="blank"
+											href="/Todd Owen Mpeli - Web Developer CV.pdf"
+											download="Todd Owen Mpeli CV.pdf"
+										>
+											<Image
+												src="/otherImages/LogoResume.png"
+												alt="New Project Logo"
+												width={50}
+												height={50}
+												objectFit="contain"
+											></Image>
+										</a>
+									</Link>
+								</newButton>
+							</ul>
 						</div>
-						<ul className={styles.navLinks}>
-							<newButton>
-								<i className="bi bi-toggle-off"></i>
-							</newButton>
-							<Link href="/projects" target="blank">
-								<a>Projects</a>
-							</Link>
-							<Link href="/about" target="blank">
-								<a>About</a>
-							</Link>
-							<Link href="/skills" target="blank">
-								<a>Skills</a>
-							</Link>
-							<Link href="/contactUs" target="blank">
-								<a>Contact</a>
-							</Link>
-							<newButton>
-								<a
-									className={styles.resumeBtn}
-									target="blank"
-									href="/Todd Owen Mpeli - Web Developer CV.pdf"
-									download="Todd Owen Mpeli CV.pdf"
-								>
-									Resume
-								</a>
-							</newButton>
-						</ul>
 					</div>
 				</nav>
 			</header>
-		</div>
+		</>
 	);
 };
 

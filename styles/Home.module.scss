@@ -7,7 +7,7 @@
 .header {
 	margin: 0 auto;
 	padding: 1rem 0;
-	max-width: $maxWidthViewPort;
+	background-color: $backgroundColor_black;
 
 	nav {
 		padding: 0 1rem;
@@ -21,59 +21,31 @@
 			.navTitle {
 				display: flex;
 				align-items: center;
-
-				a {
-					margin: 0 auto;
-					font-weight: 900;
-					letter-spacing: 0.1rem;
-					color: $baseColor_black;
-					text-transform: uppercase;
-					font-size: $fontSize_large;
-					font-family: $fontStyle_header;
-				}
-
-				a:hover {
-					color: $secondary_Purple;
-				}
+				grid-column-gap: 2rem;
 			}
 
 			.navLinks {
 				padding: 0rem;
 				margin: auto 0;
 				display: flex;
+				align-items: center;
+				justify-content: center;
 				justify-content: right;
-
-				newButton {
-					border: none;
-					display: flex;
-					margin: 0 auto;
-					list-style: none;
-					background: none;
-					font-weight: 600;
-					margin-right: 1rem;
-					align-items: center;
-					color: $baseColor_black;
-					font-size: $fontSize_large;
-				}
-
-				newButton:hover {
-					color: $secondary_pinkRed;
-				}
 
 				a {
 					display: flex;
 					margin: 0 auto;
-					font-weight: 600;
+					font-weight: 100;
 					padding: 0px 20px;
 					align-items: center;
 					text-decoration: none;
-					color: $baseColor_black;
-					font-size: $fontSize_small;
-					font-family: $fontStyle_option4;
+					font-size: $fontSize_xSmall;
+					color: $baseColor_lightGrey3;
+					font-family: $fontStyle_option2;
 				}
 
 				a:hover {
-					color: $secondary_pinkRed;
+					color: $baseColor_white;
 				}
 
 				.resumeBtn {
@@ -81,13 +53,11 @@
 					border-radius: 5px;
 					margin-left: 1rem;
 					color: $baseColor_white;
-					background-color: $secondary_pinkRed;
 				}
 
 				.resumeBtn:hover {
 					transition: all 0.25s ease-in-out;
 					color: $baseColor_white;
-					background-color: $AdditionalColor_darkPurple;
 				}
 			}
 		}
@@ -99,7 +69,6 @@
 	padding: 1rem;
 	margin: 0 auto;
 	margin-bottom: 5rem;
-	max-width: $maxWidthViewPort;
 
 	.heroBackground {
 		background-image: url("/otherImages/HeroBackground3.png");
@@ -186,7 +155,7 @@
 							border-radius: 5px;
 							text-decoration: none;
 							color: $baseColor_white;
-							font-size: $fontSize_small;
+							font-size: $fontSize_xSmall;
 							font-family: $fontStyle_option1;
 							background-color: $AdditionalColor_Purple1;
 							box-shadow: $box-shadow-5;
@@ -255,7 +224,6 @@
 		box-shadow: $box-shadow-5;
 		background-color: $backgroundColor_White;
 		margin: 0 auto;
-		max-width: $maxWidthViewPort;
 
 		.mainSide {
 			padding: 2rem;
@@ -389,7 +357,7 @@
 						padding: 0.5rem;
 						border-radius: 7.5px;
 						color: $baseColor_white;
-						font-size: $fontSize_small;
+						font-size: $fontSize_xSmall;
 						position: relative;
 						background-color: $AdditionalColor_Purple1;
 
@@ -502,7 +470,6 @@
 
 	.content {
 		margin: 0 auto;
-		max-width: $maxWidthViewPort;
 
 		.topSection {
 			display: flex;
@@ -523,9 +490,9 @@
 					a {
 						padding: 10px;
 						text-decoration: none;
-						font-size: $fontSize_small;
+						font-size: $fontSize_xSmall;
 						color: $baseColor_lightGrey4;
-						font-family: $fontStyle_option4;
+						font-family: $fontStyle_option2;
 					}
 
 					a:hover {
@@ -537,8 +504,8 @@
 						letter-spacing: 0.04rem;
 						color: $baseColor_white;
 						text-transform: uppercase;
-						font-size: $fontSize_normal;
-						font-family: $fontStyle_option4;
+						font-size: $fontSize_xSmall;
+						font-family: $fontStyle_option2;
 					}
 				}
 
@@ -552,8 +519,8 @@
 						text-decoration: none;
 						color: $baseColor_white;
 						text-transform: uppercase;
-						font-size: $fontSize_normal;
-						font-family: $fontStyle_option4;
+						font-size: $fontSize_xSmall;
+						font-family: $fontStyle_option2;
 					}
 
 					a:hover {
@@ -570,9 +537,9 @@
 				a {
 					padding: 10px;
 					text-decoration: none;
-					font-size: $fontSize_normal;
+					font-size: $fontSize_xSmall;
 					color: $baseColor_lightGrey4;
-					font-family: $fontStyle_option4;
+					font-family: $fontStyle_option2;
 				}
 
 				a:hover {
@@ -596,7 +563,7 @@
 					text-decoration: none;
 					font-size: $fontSize_xSmall;
 					color: $baseColor_lightGrey4;
-					font-family: $fontStyle_option4;
+					font-family: $fontStyle_option2;
 				}
 
 				a:hover {
@@ -617,7 +584,7 @@
 						text-decoration: none;
 						font-size: $fontSize_xSmall;
 						color: $baseColor_lightGrey4;
-						font-family: $fontStyle_option4;
+						font-family: $fontStyle_option2;
 					}
 				}
 
@@ -965,7 +932,7 @@
 						text-align: center;
 						text-transform: capitalize;
 						font-size: $fontSize_normal;
-						font-family: $fontStyle_option2;
+						font-family: $fontStyle_option1;
 						color: $secondary_Purple;
 					}
 				}
@@ -1301,7 +1268,7 @@
 						text-align: center;
 						text-transform: capitalize;
 						font-size: $fontSize_normal;
-						font-family: $fontStyle_option2;
+						font-family: $fontStyle_option1;
 						color: $secondary_Purple;
 					}
 				}

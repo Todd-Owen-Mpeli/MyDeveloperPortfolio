@@ -24,9 +24,8 @@ export default function Home() {
 				/>
 				{/* <!-- Bootstrap CSS --> */}
 				<link
-					href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+					href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
 					rel="stylesheet"
-					integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
 				/>
 				{/* <!-- Bootstrap Icon Link --> */}
 				<link
