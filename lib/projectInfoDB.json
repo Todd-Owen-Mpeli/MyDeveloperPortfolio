@@ -1,0 +1,42 @@
+[
+	{
+		"id": "1",
+		"projectName": "ToddBue website",
+		"projectSoftware": "Next.js"
+	},
+	{
+		"id": "2",
+		"projectName": "Kandy's Launderette online store",
+		"projectSoftware": "Next.js"
+	},
+	{
+		"id": "3",
+		"projectName": "realme smartphone website",
+		"projectSoftware": "HTML5, JavaScript, SCSS, CSS3"
+	},
+	{
+		"id": "4",
+		"projectName": "Mazza Treats Website",
+		"projectSoftware": "HMTL5, SCSS, JavaScript"
+	},
+	{
+		"id": "5",
+		"projectName": "Kandys Launderette Website",
+		"projectSoftware": "HMTL, SCSS, JavaScript"
+	},
+	{
+		"id": "6",
+		"projectName": "Mancala Board-Game App",
+		"projectSoftware": "Java, CSS, JavaFX"
+	},
+	{
+		"id": "7",
+		"projectName": "JavaScript Calculator",
+		"projectSoftware": "JavaScript, HTML5, SCSS"
+	},
+	{
+		"id": "8",
+		"projectName": "JavaScript Quiz Questionnaire App",
+		"projectSoftware": "JavaScript, HTML5 & SCSS"
+	}
+]
