@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "/styles/Home.module.scss";
 
 const Navbar = () => {
@@ -6,12 +7,29 @@ const Navbar = () => {
 		<div>
 			{/* <!--===== HEADER =====--> */}
 			<header className={styles.header}>
-				<nav>
+				<nav className="container">
 					<div className={styles.content}>
 						<div className={styles.navTitle}>
-							<Link href="/" target="blank">
+							<Link href="/">
 								<a>
-									<strong>Todd</strong>
+									<Image
+										src="/otherImages/LogoPurple.png"
+										alt="Logo"
+										width={40}
+										height={40}
+										objectFit="contain"
+									></Image>
+								</a>
+							</Link>
+							<Link href="/">
+								<a>
+									<Image
+										src="/otherImages/logoNew.png"
+										alt="New Project Logo"
+										width={50}
+										height={50}
+										objectFit="contain"
+									></Image>
 								</a>
 							</Link>
 						</div>
