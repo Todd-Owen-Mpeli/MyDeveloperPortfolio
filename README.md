@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This projects is constructed solely with Next.js - featuring, Bootstrap 5, JSON, and a Framer-motion animation API. It also demonstrates my general web development skills, specifically, HTML5, CSS3, SCSS, JavaScript /jQuery, Git/ Github.
 
+# Deployment
+
+Deployed with vercel here: 
+
+a). https://my-developer-portfolio-five.vercel.app/
+
+b). https://my-developer-portfolio-git-main-todd-owen-mpeli.vercel.app/
+
+c). https://my-developer-portfolio-todd-owen-mpeli.vercel.app/
+
 ## Getting Started
 
 First, run the development server:
