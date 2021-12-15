@@ -43,7 +43,7 @@ export default function Home() {
 			<Navbar />
 
 			{/* <!--===== HERO =====--> */}
-			{/* <Hero /> */}
+			<Hero />
 
 			{/* <!--===== PROJECTS =====--> */}
 			{/* <Projects /> */}
