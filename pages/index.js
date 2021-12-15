@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "/components/Navbar";
 import Hero from "/components/Hero";
+import NewProjects from "/components/NewProjects";
 import Projects from "/components/Projects";
 import Footer from "/components/Footer";
 
@@ -44,6 +45,9 @@ export default function Home() {
 
 			{/* <!--===== HERO =====--> */}
 			<Hero />
+
+			{/* <!--===== NEXT JS PROJECTS =====--> */}
+			<NewProjects />
 
 			{/* <!--===== PROJECTS =====--> */}
 			<Projects />
