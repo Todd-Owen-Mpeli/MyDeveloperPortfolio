@@ -46,7 +46,7 @@ export default function Home() {
 			<Hero />
 
 			{/* <!--===== PROJECTS =====--> */}
-			{/* <Projects /> */}
+			<Projects />
 
 			{/* <!--===== FOOTER =====--> */}
 			<Footer />
