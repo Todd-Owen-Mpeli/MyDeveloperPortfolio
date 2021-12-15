@@ -27,14 +27,10 @@
 				padding: 0rem;
 				margin: auto 0;
 				display: flex;
-				align-items: center;
-				justify-content: center;
-				justify-content: right;
 
 				a {
 					display: flex;
 					margin: 0 auto;
-					font-weight: 100;
 					padding: 0px 20px;
 					align-items: center;
 					text-decoration: none;
@@ -44,19 +40,19 @@
 				}
 
 				a:hover {
+					transition: all 0.2s ease-in-out;
 					color: $baseColor_white;
 				}
 
 				.resumeBtn {
-					padding: 0.75rem;
-					border-radius: 5px;
+					padding: 0 0.5rem;
 					margin-left: 1rem;
 					color: $baseColor_white;
 				}
 
 				.resumeBtn:hover {
-					transition: all 0.25s ease-in-out;
-					color: $baseColor_white;
+					transition: all 0.2s ease-in-out;
+					opacity: 0.75;
 				}
 			}
 		}
@@ -326,7 +322,6 @@
 // <========== FOOTER ==========>
 .footer {
 	padding: 2rem;
-	background-color: $backgroundColor_black;
 
 	.content {
 		margin: 0 auto;
@@ -556,198 +551,6 @@
 		}
 	}
 
-	/*====== HERO ======*/
-	.hero {
-		margin-bottom: 2.5rem;
-
-		.heroBackground {
-			background-image: url("/otherImages/HeroBackground3.png");
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-
-			.heroOuterBackground {
-				.heroInnerBackground {
-					display: flex;
-					flex-direction: column;
-					grid-row-gap: 2rem;
-
-					.heroLeftSide {
-						width: fit-content;
-					}
-
-					.heroRightSide {
-						.socialMediaLinks {
-							a {
-								font-size: $fontSize_large-0;
-							}
-						}
-					}
-				}
-			}
-
-			.profileImageBackground {
-				display: none;
-			}
-		}
-	}
-
-	/*====== PROJECTS ======*/
-	.projects {
-		background-color: $backgroundColor_lightBlack;
-
-		.content {
-			background-color: $backgroundColor_White;
-
-			.mainside {
-				.recommendedProjects {
-					display: flex;
-					grid-row-gap: 2rem;
-					flex-direction: column;
-				}
-
-				/* ===== FEATURED PROJECTS SECTION =====*/
-				.outerContainer {
-					.info_containerN {
-						.content {
-							.moreProjects {
-								display: flex;
-								flex-direction: column;
-
-								.apps {
-									.image {
-										a {
-											img {
-												height: 200px;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-
-		.projects__content:hover {
-			transition: all 0.25s ease-in-out;
-			box-shadow: $box-shadow-6;
-		}
-	}
-
-	/* ===== ABOUT =====*/
-	.aboutMe {
-		padding: 1rem;
-		margin: 0rem;
-
-		.backgroundDisplay {
-			.backgroundCircle {
-				display: none;
-
-				.circle {
-					display: none;
-				}
-			}
-
-			.outerDisplay {
-				box-shadow: $box-shadow-0;
-
-				.outerDisplayBackground {
-					.profilePicture {
-						display: none;
-					}
-
-					.content {
-						.innerContent {
-							margin-bottom: 2rem;
-						}
-
-						.innerContent1 {
-							display: flex;
-							flex-direction: column;
-
-							.hobbies {
-								border-radius: 5px;
-								box-shadow: $box-shadow-0;
-								// border: $baseColor_black 0.15rem solid;
-							}
-
-							.activities {
-								border-radius: 5px;
-								box-shadow: $box-shadow-0;
-							}
-						}
-					}
-				}
-			}
-
-			.outerDisplay:hover {
-				border: none;
-				box-shadow: $box-shadow-0;
-			}
-		}
-	}
-
-	/* ===== SKILLS =====*/
-	.skills {
-		padding: 1rem;
-		margin: 0rem;
-		background-color: $AdditionalColor-darkOrange;
-
-		.outerBackground {
-			.content {
-				.software {
-					padding: 2rem;
-					display: grid;
-					grid-template-columns: repeat(4, 1fr);
-					grid-row-gap: 2rem;
-				}
-
-				.outerContainer {
-					.SoftwareContent {
-						.content {
-							.moreProjects {
-								display: grid;
-								margin-top: 2rem;
-								grid-template-columns: repeat(4, 1fr);
-								grid-row-gap: 3rem;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	/* ===== CONTACT ME =====*/
-	.contactUs {
-		padding: 0rem;
-		margin: 0rem;
-		padding-bottom: 1.5rem;
-		background-color: $backgroundColor_lightBlack;
-
-		.socials {
-			display: none;
-		}
-
-		.contacBox {
-			width: 100%;
-			height: 100%;
-			border-radius: 0px;
-			box-shadow: none;
-			box-sizing: border-box;
-
-			h2 {
-				text-align: center;
-			}
-		}
-
-		.map {
-			display: none;
-		}
-	}
-
 	/* ===== FOOTER =====*/
 	.footer {
 		padding: 1rem;
@@ -919,171 +722,6 @@
 		}
 	}
 
-	/*====== HERO ======*/
-	.hero {
-		margin-bottom: 2.5rem;
-
-		.heroBackground {
-			background-image: url("/otherImages/HeroBackground3.png");
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-
-			.heroOuterBackground {
-				.heroInnerBackground {
-					display: flex;
-					flex-direction: column;
-					grid-row-gap: 2rem;
-
-					.heroLeftSide {
-						width: fit-content;
-					}
-
-					.heroRightSide {
-						.socialMediaLinks {
-							a {
-								font-size: $fontSize_large-0;
-							}
-						}
-					}
-				}
-			}
-
-			.profileImageBackground {
-				display: none;
-			}
-		}
-	}
-
-	/*====== PROJECTS ======*/
-	.projects {
-		background-color: $backgroundColor_lightBlack;
-
-		.content {
-			background-color: $backgroundColor_White;
-
-			.mainside {
-				.recommendedProjects {
-					display: flex;
-					grid-row-gap: 2rem;
-					flex-direction: column;
-				}
-
-				/* ===== FEATURED PROJECTS SECTION =====*/
-				.outerContainer {
-					.info_containerN {
-						.content {
-							.moreProjects {
-								display: flex;
-								flex-direction: column;
-							}
-						}
-					}
-				}
-			}
-		}
-
-		.projects__content:hover {
-			transition: all 0.25s ease-in-out;
-			box-shadow: $box-shadow-6;
-		}
-	}
-
-	/* ===== ABOUT =====*/
-	.aboutMe {
-		padding: 1rem;
-		margin: 0rem;
-
-		.backgroundDisplay {
-			.backgroundCircle {
-				display: none;
-
-				.circle {
-					display: none;
-				}
-			}
-
-			.outerDisplay {
-				box-shadow: $box-shadow-0;
-
-				.outerDisplayBackground {
-					.profilePicture {
-						display: none;
-					}
-
-					.content {
-						.innerContent {
-							margin-bottom: 2rem;
-						}
-
-						.innerContent1 {
-							display: flex;
-							grid-column-gap: 0rem;
-
-							.hobbies {
-								display: flex;
-								border-radius: 5px;
-								box-shadow: $box-shadow-0;
-							}
-
-							.activities {
-								display: flex;
-								border-radius: 5px;
-								box-shadow: $box-shadow-0;
-							}
-						}
-					}
-				}
-			}
-
-			.outerDisplay:hover {
-				border: none;
-				box-shadow: $box-shadow-0;
-			}
-		}
-	}
-
-	/* ===== SKILLS =====*/
-	.skills {
-		padding: 1rem;
-		margin: 0rem;
-		background-color: $AdditionalColor-darkOrange;
-
-		.outerBackground {
-			.content {
-				.software {
-					padding: 2rem;
-					display: grid;
-					grid-template-columns: repeat(4, 1fr);
-					grid-row-gap: 2rem;
-				}
-
-				.outerContainer {
-					.SoftwareContent {
-						.content {
-							.moreProjects {
-								display: grid;
-								margin-top: 2rem;
-								grid-template-columns: repeat(4, 1fr);
-								grid-row-gap: 3rem;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	/* ===== CONTACT ME =====*/
-	.contactUs {
-		.map {
-			iframe {
-				height: 34rem;
-				width: 40vw;
-			}
-		}
-	}
-
 	/* ===== FOOTER =====*/
 	.footer {
 		padding: 1rem;
@@ -1207,129 +845,6 @@
 					color: $baseColor_black;
 					font-size: $fontSize_normal;
 				}
-			}
-		}
-	}
-
-	/*====== HERO ======*/
-	.hero {
-		margin-bottom: 5rem;
-
-		.heroBackground {
-			.heroOuterBackground {
-				display: grid;
-				position: relative;
-				box-shadow: $box-shadow-5;
-
-				.heroInnerBackground {
-					grid-column-gap: 5rem;
-
-					.heroLeftSide {
-						padding: 1.5rem;
-					}
-				}
-			}
-
-			.profileImageBackground {
-				display: none;
-			}
-		}
-	}
-
-	/*====== PROJECTS ======*/
-	.projects {
-		background-color: $backgroundColor_lightBlack;
-
-		.content {
-			background-color: $backgroundColor_White;
-
-			.mainside {
-				.recommendedProjects {
-					display: grid;
-					grid-template-columns: repeat(2, 1fr);
-				}
-
-				/* ===== FEATURED PROJECTS SECTION =====*/
-				.outerContainer {
-					.info_containerN {
-						.content {
-							.moreProjects {
-								display: grid;
-								grid-template-columns: repeat(2, 1fr);
-							}
-						}
-					}
-				}
-			}
-		}
-
-		.projects__content:hover {
-			transition: all 0.25s ease-in-out;
-			box-shadow: $box-shadow-6;
-		}
-	}
-
-	/* ===== ABOUT =====*/
-	.aboutMe {
-		padding: 1rem;
-		margin: 0rem;
-
-		.backgroundDisplay {
-			.backgroundCircle {
-				display: none;
-
-				.circle {
-					display: none;
-				}
-			}
-
-			.outerDisplay {
-				box-shadow: $box-shadow-0;
-
-				.outerDisplayBackground {
-					.profilePicture {
-						display: none;
-					}
-
-					.content {
-						.innerContent {
-							margin-bottom: 2rem;
-						}
-
-						.innerContent1 {
-							display: flex;
-							grid-column-gap: 0;
-							grid-row-gap: 2rem;
-
-							.hobbies {
-								display: flex;
-								border-radius: 5px;
-								box-shadow: $box-shadow-0;
-							}
-
-							.activities {
-								display: flex;
-								border-radius: 5px;
-								box-shadow: $box-shadow-0;
-							}
-						}
-					}
-				}
-			}
-
-			.outerDisplay:hover {
-				border: none;
-				box-shadow: $box-shadow-0;
-			}
-		}
-	}
-
-	/* ===== CONTACT ME =====*/
-	.contactUs {
-		.map {
-			iframe {
-				height: 34rem;
-				width: 40vw;
 			}
 		}
 	}
