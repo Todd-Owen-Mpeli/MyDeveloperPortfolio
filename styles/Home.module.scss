@@ -98,42 +98,11 @@
 			justify-content: space-between;
 
 			.leftSection {
-				display: flex;
-				justify-content: space-between;
-
-				.additionalInformation,
-				.getHelp,
-				.aboutToddBlue {
-					display: flex;
-					margin-right: 2rem;
-					line-height: 0.75rem;
-					flex-direction: column;
-
-					a {
-						padding: 10px;
-						text-decoration: none;
-						font-size: $fontSize_xSmall;
-						color: $baseColor_lightGrey4;
-						font-family: $fontStyle_option1;
-					}
-
-					a:hover {
-						color: $baseColor_white;
-					}
-
-					.titleSection {
-						margin-bottom: 0.15rem;
-						letter-spacing: 0.04rem;
-						color: $baseColor_white;
-						text-transform: uppercase;
-						font-size: $fontSize_xSmall;
-						font-family: $fontStyle_option1;
-					}
-				}
-
 				.additionalInformation {
+					display: flex;
 					line-height: 1rem;
 					margin-right: 7rem;
+					justify-content: space-between;
 
 					a {
 						padding: 10px;
@@ -146,6 +115,7 @@
 					}
 
 					a:hover {
+						transition: all 0.2s ease-in-out;
 						color: $baseColor_lightGrey2;
 					}
 				}
@@ -159,12 +129,13 @@
 				a {
 					padding: 10px;
 					text-decoration: none;
-					font-size: $fontSize_xSmall;
+					font-size: $fontSize_normal;
 					color: $baseColor_lightGrey4;
 					font-family: $fontStyle_option1;
 				}
 
 				a:hover {
+					transition: all 0.2s ease-in-out;
 					color: $baseColor_white;
 				}
 			}
@@ -189,6 +160,7 @@
 				}
 
 				a:hover {
+					transition: all 0.2s ease-in-out;
 					color: $baseColor_white;
 				}
 			}
@@ -212,6 +184,7 @@
 
 				.leftSide {
 					.location {
+						transition: all 0.2s ease-in-out;
 						color: $baseColor_white;
 
 						i {
@@ -222,6 +195,7 @@
 
 				.rightSide {
 					a:hover {
+						transition: all 0.2s ease-in-out;
 						color: $baseColor_white;
 					}
 				}
